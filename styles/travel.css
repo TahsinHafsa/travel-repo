@@ -133,6 +133,7 @@ flex-shrink: 0;
     display: flex;
     padding: auto;
     margin: 50px 60px;
+    gap: 150px;
 }
 
 
