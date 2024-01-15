@@ -136,6 +136,140 @@ flex-shrink: 0;
     gap: 150px;
 }
 
+/* Destination choosing sector */
+.desti-text{
+    text-align: center;
+}
+.desti-title{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.desti-descript{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+.desti-img1{
+    display: flex;
+    gap: 25px;
+    padding: 50px 80px 50px 150px;
+}
+    
+    
+}
+.img1 {
+    width: 573px;
+    height: 350px;
+    flex-shrink: 0;
+    /* width: 100%; */
+    position: relative;
+    text-align: center;
+}
+.img1-second{
+    width: 573px;
+    height: 200px;
+    flex-shrink: 0;
+    /* width: 100%; */
+    position: relative;
+    text-align: center;
+}  
+.text{
+    position: absolute;
+    top: 0;
+    padding: 150px 70px 150px 150px;
+    color: #FFF;
+font-size: 28px;
+font-weight: 800;
+}
+.desti-img2{
+    display: flex;
+    gap: 20px;
+    padding:  50px 80px 50px 150px;
+}
+.desti-img3{
+    display: flex;
+    gap: 25px;
+    padding: 50px 80px 50px 150px;
+}
+.destination{
+    align-items: center;
+    margin: 50px 100px 50px 100px;
+}
+
+/* why choose us section */
+.choice-text{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.choice-descript{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+.choice-text{
+    text-align: center;
+}
+.hotel{
+    padding-top: 15px;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0; 
+}
+.hotel-title{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.hotel-descript{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
+.box1{
+    padding: 15px 30px;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.box2{
+    padding:15px 30px;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.boxs{
+    display: flex;
+    gap: 25px;
+    padding: 50px 150px 30px 200px;
+    align-items: center;
+}
+.box{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 50px 150px 30px 200px;
+}
+.choice{
+    margin: auto;
+}
+.new-box{
+    padding: 0px 250px 30px 350px;
+
+}
+
+
+
 
 
 
