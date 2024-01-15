@@ -1,0 +1,40 @@
+
+font-family: 'Mulish', sans-serif;
+
+/* traveling begin */
+
+.travel-title{
+    display: flex;
+}
+.dynamic{
+    color: #FF5400;
+font-size: 2.2rem;
+font-weight: 800;
+}
+.travel-name{
+    color: #131318;
+font-size: 2.2rem;
+font-weight: 800;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+.home{
+    color: #FF5400;
+font-size: 18px;
+font-weight: 700;
+}
+.icon{
+    color: var(--Dark-02, #424247);
+font-size: 18px;
+font-weight: 400;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px 150px;
+}
