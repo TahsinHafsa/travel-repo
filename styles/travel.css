@@ -2,19 +2,27 @@
 font-family: 'Mulish', sans-serif;
 
 /* traveling begin */
+header{
+    padding: 52px 135px;
+}
 
 .travel-title{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .dynamic{
     color: #FF5400;
 font-size: 2.2rem;
 font-weight: 800;
+padding-left: 5px;
 }
 .travel-name{
     color: #131318;
 font-size: 2.2rem;
 font-weight: 800;
+padding-left: 10px;
+display: flex;
 }
 nav > ul{
     display: flex;
@@ -36,7 +44,7 @@ nav{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin: 50px 150px;
+    margin: 50px 50px;
 }
 .travel-img{
     width: 48px;
@@ -49,8 +57,12 @@ img{
     width: 100%;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     background-blend-mode: color;
-    filter: contrast(150%);
+    filter: contrast(145%);
     opacity: 0.8;
+    flex-shrink: 0;
+    border-radius: 16px;
+    margin: 50px 50px;
+
 }
 .banner-title{
     color: #FFF;
@@ -150,14 +162,16 @@ font-weight: 800;
 font-size: 16px;
 font-weight: 400;
 }
-.desti-img1{
+ .desti-img1{
+    
     display: flex;
     gap: 25px;
-    padding: 50px 80px 50px 150px;
+    padding:50px 80px 50px 150px;
+  
 }
     
     
-}
+
 .img1 {
     width: 573px;
     height: 350px;
@@ -173,7 +187,7 @@ font-weight: 400;
     /* width: 100%; */
     position: relative;
     text-align: center;
-}  
+}   
 .text{
     position: absolute;
     top: 0;
@@ -182,7 +196,7 @@ font-weight: 400;
 font-size: 28px;
 font-weight: 800;
 }
-.desti-img2{
+ .desti-img2{
     display: flex;
     gap: 20px;
     padding:  50px 80px 50px 150px;
@@ -191,11 +205,40 @@ font-weight: 800;
     display: flex;
     gap: 25px;
     padding: 50px 80px 50px 150px;
-}
+} 
 .destination{
     align-items: center;
     margin: 50px 100px 50px 100px;
 }
+img{
+    height: 100%;
+    width: 100%;
+}
+.row{
+    height: 300px;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    padding: 0px 67.5px;
+
+}
+.row2{ height: 286px;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    padding: 0px 67.5px;
+
+    
+}
+.row3{ height: 300px;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    padding: 0px 67.5px;
+
+
+} 
+
 
 /* why choose us section */
 .choice-text{
